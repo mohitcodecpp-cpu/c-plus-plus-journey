@@ -1,17 +1,24 @@
 #include <iostream>
 using namespace std;
-int main () { 
-    for(int m =1; m<=5 ; m++){
-        for (int n=1 ; n<=m; n++){cout<<n <<" ";}
-        cout<<endl;
+int main () { int n=5;
+    for (int m=1; m<=n ;m++){
+        char ch= 'A';
+        for(int j=1 ;j<=n ;j++){
+            cout<< ch;
+            ch+=1;
+        }
+cout <<endl;
+    }return 0;
 
-}
-return 0;
+
+
+    }
+
 
 
   
 
-}
+
 
 
 
